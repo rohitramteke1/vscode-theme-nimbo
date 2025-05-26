@@ -1,0 +1,19 @@
+# Ignore node modules & build
+node_modules
+dist
+.vscode
+*.vsix
+
+# Ignore preview screenshots (optional if hosted externally)
+assets/previews/*.png
+
+# Ignore other development files
+.gitignore
+.vscodeignore
+gallery.md
+utils/
+fetchData.js
+
+# Ignore system files
+.DS_Store
+Thumbs.db

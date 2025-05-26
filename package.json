@@ -1,0 +1,66 @@
+{
+	"name": "nimbo-theme",
+	"displayName": "Nimbo Theme",
+	"description": "Nimbo is a family of minimal, borderless, and modern VS Code themes inspired by cloud palettes and Ayu Mirage. Includes dark, light, and other variants.",
+	"version": "1.0.0",
+	"publisher": "rohitramteke1",
+	"engines": {
+	  "vscode": "^1.74.0"
+	},
+	"icon": "./images/icon.png",
+	"categories": [
+	  "Themes"
+	],
+	"galleryBanner": {
+	  "color": "#232323",
+	  "theme": "dark"
+	},
+	"contributes": {
+	  "themes": [
+		{ "label": "Nimbo Dark", "uiTheme": "vs-dark", "path": "./themes/nimbo-dark.json" },
+		{ "label": "Nimbo Light", "uiTheme": "vs", "path": "./themes/nimbo-light.json" },
+		{ "label": "Nimbo Solarized Dark", "uiTheme": "vs-dark", "path": "./themes/nimbo-solarized-dark.json" },
+		{ "label": "Nimbo Bordered", "uiTheme": "vs-dark", "path": "./themes/nimbo-bordered.json" },
+		{ "label": "Nimbo Warm", "uiTheme": "vs-dark", "path": "./themes/nimbo-warm.json" },
+		{ "label": "Nimbo Cold", "uiTheme": "vs-dark", "path": "./themes/nimbo-cold.json" },
+		{ "label": "Nimbo Solarized Light", "uiTheme": "vs", "path": "./themes/nimbo-solarized-light.json" },
+		{ "label": "Nimbo Blue", "uiTheme": "vs-dark", "path": "./themes/nimbo-blue.json" },
+		{ "label": "Nimbo Modern", "uiTheme": "vs-dark", "path": "./themes/nimbo-modern.json" }
+	  ]
+	},
+	"screenshots": [
+	  { "path": "assets/previews/nimbo-dark-sidebar.png", "caption": "Nimbo Dark – Clean & Minimal" },
+	  { "path": "assets/previews/nimbo-bordered-sidebar.png", "caption": "Nimbo Bordered – Soft UI borders" },
+	  { "path": "assets/previews/nimbo-modern-sidebar.png", "caption": "Nimbo Modern – Ultra dark + sleek" },
+	  { "path": "assets/previews/nimbo-warm-sidebar.png", "caption": "Nimbo Warm – Cozy sunset tones" },
+	  { "path": "assets/previews/nimbo-cold-sidebar.png", "caption": "Nimbo Cold – Icy blue tones" },
+	  { "path": "assets/previews/nimbo-blue-sidebar.png", "caption": "Nimbo Blue – Bold & high contrast" },
+	  { "path": "assets/previews/nimbo-light-sidebar.png", "caption": "Nimbo Light – Bright & clean" },
+	  { "path": "assets/previews/nimbo-solarized-dark-sidebar.png", "caption": "Nimbo Solarized Dark – Classic coding" },
+	  { "path": "assets/previews/nimbo-solarized-light-sidebar.png", "caption": "Nimbo Solarized Light – Refined brightness" }
+	],
+	"repository": {
+	  "type": "git",
+	  "url": "https://github.com/rohitramteke1/vscode-theme-nimbo"
+	},
+	"bugs": {
+	  "url": "https://github.com/rohitramteke1/vscode-theme-nimbo/issues"
+	},
+	"homepage": "https://github.com/rohitramteke1/vscode-theme-nimbo#readme",
+	"keywords": [
+	  "theme",
+	  "vscode",
+	  "minimal",
+	  "cloud",
+	  "nimbo",
+	  "ayu",
+	  "dark",
+	  "borderless",
+	  "solarized",
+	  "modern",
+	  "warm",
+	  "cool",
+	  "clean"
+	],
+	"license": "MIT"
+  }
